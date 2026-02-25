@@ -62,7 +62,7 @@ Built with the **MERN Stack**, integrated with **Google Gemini AI**, **Stripe pa
 
 ### 📦 Installation
 
-```bash
+
 git clone https://github.com/suryachittem/ExamNotesAI.git
 cd ExamNotesAI
 
@@ -73,3 +73,62 @@ npm install
 cd client
 npm install
 cd ..
+
+
+### 🌐 Live Application
+
+🚀 Try ExamNotesAI live:
+👉 https://ai-notes-generatorclient-hvbq.onrender.com
+
+🔧 Environment Variables
+Server (.env)
+PORT=8080
+MONGO_URI=mongodb://localhost:27017/examnotesai
+JWT_SECRET=your_secure_jwt_secret
+GEMINI_API_KEY=your_gemini_api_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_WEBHOOK_SECRET=your_webhook_secret
+CLIENT_URL=http://localhost:5173
+Client (client/.env)
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+📚 API Overview
+
+Base Route: /api/v1
+
+🔓 Public Routes
+
+Register
+
+Login
+
+Pricing
+
+🔒 Protected Routes
+
+Generate Notes
+
+Get User Credits
+
+Purchase Credits
+
+Download Notes
+
+Stripe Webhook
+
+🧠 Why This Project Stands Out?
+
+❌ Not a basic CRUD app
+❌ Not a dummy academic project
+
+✅ Real-world AI SaaS application
+✅ Stripe-based monetization
+✅ Dual authentication (JWT + Firebase)
+✅ Production-ready architecture
+✅ Resume & portfolio worthy
+
+👨‍💻 Author
+
+Surya Chittem
+🔗 GitHub: https://github.com/suryachittem
+
+🌍 Live App: https://ai-notes-generatorclient-hvbq.onrender.com
