@@ -63,10 +63,11 @@ Built with the **MERN Stack**, integrated with **Google Gemini AI**, **Stripe pa
 ### 📦 Installation
 
 --bash 
-git clone https://github.com/suryachittem/ExamNotesAI.git
-cd ExamNotesAI
+git clone https://github.com/suryachittem/AI-NOTES-GENERATOR.git
+cd AI-NOTES-GENERATOR
 
 # Install backend dependencies
+cd server
 npm install
 
 # Install frontend dependencies
