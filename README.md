@@ -1,144 +1,125 @@
-🚀 AI-Notes-Generator
-AI-Powered Exam Notes SaaS Platform
+🚀 AI-Notes-Generator – AI Powered Exam Notes SaaS Platform
+GitHub Repo URL Technology Stack Live Application
 
-AI-Notes-Generator is a production-ready AI SaaS platform that generates exam-oriented notes, diagrams, graphs, and revision material in one click using Artificial Intelligence.
+A production-ready AI-powered SaaS platform that generates exam-oriented notes, diagrams, graphs, and revision material in just ONE CLICK using Artificial Intelligence.
 
-Built using the MERN Stack, integrated with Google Gemini AI, Stripe payments, and dual authentication (JWT + Firebase). Fully deployed on Render.
-
-🔗 Live App:
-https://ai-notes-generator-client.onrender.com
-
-🔗 GitHub Repository:
-https://github.com/SHAIKHANIF2004/AI-NOTES-GENERATOR
+Built with the MERN Stack, integrated with Gemini AI, Stripe payments, and dual authentication using JWT + Firebase. Fully deployed on Render.
 
 ✨ Key Features
-🎓 Student-Focused Features
-
-🤖 AI-Based Notes Generation – Instantly generate structured, exam-oriented notes
-
-📊 Auto-Generated Diagrams, Graphs & Charts – Visual learning made easy
-
-📝 Revision Mode – Short, crisp notes for last-minute preparation
-
-📚 Class-wise & Subject-wise Question Generation
-
-📥 Downloadable Notes – Export notes for offline study
-
-📱 Fully Responsive UI – Optimized for desktop & mobile devices
+🎓 For Students
+🤖 AI-Based Notes Generation – Generate structured exam notes instantly.
+📊 Auto-Generated Diagrams, Graphs & Charts – Visual learning made simple.
+📝 Revision Mode – Short, crisp notes for last-minute preparation.
+📚 Class-wise & Subject-wise Questions – Important exam questions generated automatically.
+📥 Downloadable Notes – Export notes for offline study.
+📱 Fully Responsive UI – Optimized for desktop & mobile.
 
 💳 SaaS & Monetization System
-
-💰 Credit-Based Usage System – AI usage consumes credits
-
-💳 Stripe Payment Integration – Secure credit purchases
-
-📦 Multiple Pricing Plans
-
-🔄 Secure Stripe Webhooks – Real-time credit updates after payment
+💰 Credit-Based Usage System – Notes generation consumes credits.
+💳 Stripe Payment Integration – Secure credit purchase system.
+📦 Pricing Plans – Flexible plans for different usage levels.
+🔄 Secure Webhook Handling – Real-time credit updates after payment.
 
 🔐 Authentication & Security
+🔐 JWT Authentication – Backend token-based authentication.
+🔥 Firebase Authentication – Secure client-side authentication.
+🛡 Protected API Routes – Token-based access control.
+🌍 Live Deployment – Hosted on Render.
+⚙️ Environment-Based Configuration – Secure production setup.
 
-🔐 JWT Authentication – Backend token-based auth
-
-🔥 Firebase Authentication – Secure client-side auth
-
-🛡 Protected API Routes
-
-⚙️ Environment-Based Configuration
-
-🌍 Production Deployment on Render
-
-🛠 Technology Stack
+🛠️ Technology Stack
 Category	Technology	Description
-Frontend	⚛️ React.js (Vite)	Fast, modern UI
-Backend	🚀 Node.js & Express.js	RESTful API
+Frontend Core	⚛️ React.js (Vite)	Fast, modern UI development
+Backend Core	🚀 Node.js & Express.js	RESTful API & business logic
 Database	🗄️ MongoDB & Mongoose	Data persistence
-AI Engine	🤖 Google Gemini AI	AI content generation
-Payments	💳 Stripe	Secure payments
-Authentication	🔐 JWT + Firebase	Dual authentication
-Deployment	🌍 Render	Cloud hosting
+AI Engine	🤖 Google Gemini AI	AI-powered notes generation
+Payments	💳 Stripe	Secure payment processing
+Authentication	🔐 JWT + Firebase Auth	Secure authentication system
+Deployment	🌍 Render	Cloud hosting platform
+
 🚀 Quick Start Guide
 Prerequisites
-
 Node.js >= 16
-
 MongoDB
-
 Stripe Account
-
 Gemini API Key
-
 Firebase Project
 
-Installation
+nstallation
 git clone https://github.com/SHAIKHANIF2004/AI-NOTES-GENERATOR.git
 cd AI-NOTES-GENERATOR
-
-# Install backend dependencies
+# Install backend
 npm install
 
-# Install frontend dependencies
-cd client
-npm install
-cd ..
-Run in Development Mode
+# Install frontend
+cd client && npm install && cd ..
+
+Run Development
 # Start backend
 npm run dev
-
 # Start frontend
-cd client
-npm run dev
-🔧 Environment Variables
-Backend (.env)
-PORT=8080
-MONGO_URI=mongodb://localhost:27017/ai-notes
-JWT_SECRET=your_secure_jwt_secret
-GEMINI_API_KEY=your_gemini_api_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=your_webhook_secret
-CLIENT_URL=http://localhost:5173
-Frontend (client/.env)
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-📚 API Overview
+cd client && npm run dev
 
+🌐 Live Application
+🚀 Generate AI-powered exam notes instantly:
+
+https://ai-notes-generatorclient-hvbq.onrender.com
+
+🔧 Environment Variables
+Server (.env)
+Variable	Description	Example Value
+PORT	Backend server port	8080
+MONGO_URI	MongoDB connection string	mongodb://localhost:27017/ai-notes
+JWT_SECRET	JWT secret key	your_secure_jwt_secret
+GEMINI_API_KEY	Gemini API key	your_gemini_api_key
+STRIPE_SECRET_KEY	Stripe secret key	your_stripe_secret_key
+STRIPE_WEBHOOK_SECRET	Stripe webhook secret	your_webhook_secret
+CLIENT_URL	Frontend base URL	http://localhost:5173
+
+Client (client/.env)
+Variable	Description	Example Value
+VITE_FIREBASE_API_KEY	Firebase API Key	your_firebase_api_key
+
+📚 API Overview
 Base Route: /api/v1
 
 Public Endpoints
 
 Register
-
 Login
-
 Pricing
-
 Protected Endpoints
 
 Generate Notes
-
 Get User Credits
-
 Purchase Credits
-
 Download Notes
-
 Stripe Webhook
 
 🧠 Why This Project Stands Out?
-
 ❌ Not a basic CRUD app
 ❌ Not a dummy academic project
 
-✅ Real-world AI SaaS product
-✅ Stripe monetization
-✅ Dual authentication system
-✅ Production-grade architecture
-✅ Deployed & live
-✅ Resume-worthy full-stack project
+✅ Real AI SaaS product
+✅ Stripe monetization system
+✅ Dual authentication (JWT + Firebase)
+✅ Production-level deployment
+✅ Resume-worthy full-stack architecture
 
-👨‍💻 Author
+Built with ❤️ by Abdul Hanif Shaik
+
+GitHub: https://github.com/suryachittem
+Live App: 🧠 Why This Project Stands Out?
+❌ Not a basic CRUD app
+❌ Not a dummy academic project
+
+✅ Real AI SaaS product
+✅ Stripe monetization system
+✅ Dual authentication (JWT + Firebase)
+✅ Production-level deployment
+✅ Resume-worthy full-stack architecture
 
 Built with ❤️ by Abdul Hanif Shaik
 
 GitHub: https://github.com/SHAIKHANIF2004
-
 Live App: https://ai-notes-generator-client.onrender.com
