@@ -62,7 +62,7 @@ Built with the **MERN Stack**, integrated with **Google Gemini AI**, **Stripe pa
 
 ### 📦 Installation
 
-
+--bash 
 git clone https://github.com/suryachittem/ExamNotesAI.git
 cd ExamNotesAI
 
@@ -80,7 +80,7 @@ cd ..
 🚀 Try ExamNotesAI live:
 👉 https://ai-notes-generatorclient-hvbq.onrender.com
 
-🔧 Environment Variables
+### 🔧 Environment Variables
 Server (.env)
 PORT=8080
 MONGO_URI=mongodb://localhost:27017/examnotesai
@@ -91,7 +91,8 @@ STRIPE_WEBHOOK_SECRET=your_webhook_secret
 CLIENT_URL=http://localhost:5173
 Client (client/.env)
 VITE_FIREBASE_API_KEY=your_firebase_api_key
-📚 API Overview
+
+### 📚 API Overview
 
 Base Route: /api/v1
 
@@ -103,7 +104,7 @@ Login
 
 Pricing
 
-🔒 Protected Routes
+### 🔒 Protected Routes
 
 Generate Notes
 
@@ -115,7 +116,7 @@ Download Notes
 
 Stripe Webhook
 
-🧠 Why This Project Stands Out?
+### 🧠 Why This Project Stands Out?
 
 ❌ Not a basic CRUD app
 ❌ Not a dummy academic project
@@ -126,7 +127,7 @@ Stripe Webhook
 ✅ Production-ready architecture
 ✅ Resume & portfolio worthy
 
-👨‍💻 Author
+#### 👨‍💻 Author
 
 Surya Chittem
 🔗 GitHub: https://github.com/suryachittem
